@@ -14,6 +14,9 @@ export default class Home extends Component<Props> {
         <div className={styles.container} data-tid="container">
           <h2>Home</h2>
           <Link to="/counter">to Counter</Link>
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+            Aye
+          </button>
         </div>
       </div>
     );
